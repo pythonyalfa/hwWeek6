@@ -5,4 +5,14 @@
 
 animals = ['dog', 'cat', 'bear', 'fossa', 'tapir']
 
-for i in animals:
+fruits = ["elephant", "alienANimal", "dodo", "kiwi", "zebra"]
+combinedList = animals + fruits
+
+
+newlist = [x for x in combinedList if "a" in x]
+for i in newlist:
+    print("Hello,", i.capitalize(),"!")
+
+
+
+
